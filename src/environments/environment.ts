@@ -7,9 +7,9 @@ export const environment = {
 
   // Azure active directory
   auth: {
-    clientId: '028b61b3-6b0a-45f7-aad4-b351413b9a2f',
-    groupId: 'f75917d2-8bfa-4892-8acd-a171669dc42a',
-    authority: 'https://login.microsoftonline.com/2ffc2ede-4d44-4994-8082-487341fa43fb/',
+    clientId: '*****',
+    groupId: '****', // For group authorization
+    authority: 'https://login.microsoftonline.com/${tenantID}/',
     postLogoutRedirectUri: '',
     consentScopes: ['offline_access', 'User.Read', 'User.ReadWrite'],
   },
